@@ -1,96 +1,71 @@
-# 📌 PHÂN CÔNG CÔNG VIỆC - BIG DATA FIFA PROJECT
+# TASK 1: DATA CLEANING & NORMALIZATION
 
-## 🎯 Mục tiêu project
-Xây dựng hệ thống phân tích dữ liệu cầu thủ FIFA:
-- Xử lý Big Data bằng PySpark
-- Phân cụm cầu thủ
-- Dự đoán giá trị & rating
-- Gợi ý cầu thủ (Recommendation)
-- Trực quan hóa dữ liệu
+##  Mục tiêu
+- Đầu tiên tìm bộ data phù hợp (yc:>3gb đọc hiểu các trường trong data)
+- Làm sạch dữ liệu (Data Cleaning)
+- Chuẩn hoá dữ liệu (Data Normalization)
+- Chuẩn bị dataset sẵn sàng cho các bước sau
 
 ---
 
-## 👥 1. DATA ENGINEER (Xử lý dữ liệu)
+##  1. DATA CLEANING 
 
-### 🔹 Thành viên: [Tên A], [Tên B]
 
 ### Công việc:
-- Đọc dataset FIFA (CSV lớn)
-- Làm sạch dữ liệu:
-  - Xóa null
-  - Chuẩn hóa format
-- Xây pipeline:
-  - Bronze (raw data)
-  - Silver (clean data)
-  - Gold (data cho ML)
-- Lưu trữ bằng Parquet
+- Kiểm tra dữ liệu thiếu (NULL, NaN)
+- Xử lý:
+  - Xoá dòng thiếu dữ liệu
+  - Hoặc fill dữ liệu hợp lý
+- Xoá dữ liệu trùng (duplicate)
+- Loại bỏ dữ liệu sai:
+  - giá trị âm bất hợp lý
+  - dữ liệu lỗi format
+- Chuẩn hoá kiểu dữ liệu:
+  - string → number
+  - date → datetime
 
 ---
 
-## 🤖 2. MACHINE LEARNING
+##  2. DATA NORMALIZATION TEAM
 
-### 🔹 Thành viên: [Tên C], [Tên D]
 
 ### Công việc:
-
-#### 📌 Clustering
-- Phân cụm cầu thủ theo kỹ năng
-- Dùng KMeans / Hierarchical
-
-#### 📌 Prediction
-- Dự đoán:
-  - Giá trị cầu thủ
-  - Overall rating
-- Model: Linear Regression / Random Forest
-
-#### 📌 Recommendation (QUAN TRỌNG)
-- Gợi ý cầu thủ tương tự
-- Dùng:
-  - SVD hoặc Cosine Similarity
+exam:
+- Chuẩn hoá dữ liệu số:
+  - Scale về cùng khoảng (0–1 hoặc standard)
+- Chuẩn hoá dữ liệu dạng text:
+  - Viết thường (lowercase)
+  - Xoá ký tự đặc biệt
+- Encode dữ liệu categorical:
+  - Label Encoding / One-hot
+- Chuẩn hoá format:
+  - ngày tháng
+  - tiền tệ
 
 ---
 
-## 📊 3. DATA VISUALIZATION
+##  3. OUTPUT 
 
-### 🔹 Thành viên: [Tên E]
 
 ### Công việc:
-- Vẽ biểu đồ:
-  - Phân bố rating
-  - Giá trị cầu thủ
-  - So sánh các vị trí
-- Làm dashboard:
-  - Streamlit / Power BI / Tableau
+- Kiểm tra lại dữ liệu sau xử lý
+- Xuất dữ liệu:
+  - định dạng Parquet / CSV
+- Đảm bảo:
+  - Không còn null
+  - Dữ liệu consistent
 
 ---
 
-## 🧪 4. TEST & DOCUMENT
+##  Timeline
 
-### 🔹 Thành viên: [Tên F]
-
-### Công việc:
-- Test pipeline
-- Kiểm tra model
-- Viết báo cáo:
-  - Mô tả dữ liệu
-  - Quy trình xử lý
-  - Kết quả đạt được
+deline 9h tối
 
 ---
 
-## 📅 Timeline (gợi ý)
-
-| Tuần | Công việc |
-|------|---------|
-| 1 | Data cleaning + pipeline |
-| 2 | Clustering + EDA |
-| 3 | Prediction |
-| 4 | Recommendation |
-| 5 | Visualization + Report |
-
----
-
-## ⚠️ Quy định làm việc
-- Mỗi người update tiến độ mỗi ngày
-- Không sửa code của người khác khi chưa báo
+##  thứu cân nhắc 
+- Không sửa dữ liệu gốc
+- Mỗi bước phải lưu lại version
 - Code phải có comment rõ ràng
+
+##  Tự phân chia làm đúng hạn là được 
