@@ -12,6 +12,7 @@
 
 
 ### Công việc:
+exam:
 - Kiểm tra dữ liệu thiếu (NULL, NaN)
 - Xử lý:
   - Xoá dòng thiếu dữ liệu
