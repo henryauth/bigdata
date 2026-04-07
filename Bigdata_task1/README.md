@@ -285,7 +285,7 @@ project_bigdata_task1/
 │   ├── v5_normalized/
 │   └── final/
 └── reports/
-
+```
 ## 2 — CHUẨN HÓA DỮ LIỆU (DATA NORMALIZATION)
 **Bộ dữ liệu:** NYC TLC Yellow Taxi Trip Records (2024)
 
