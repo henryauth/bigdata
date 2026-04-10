@@ -1,5 +1,4 @@
-FIFA23 – DATA PREPROCESSING & DIMENSIONALITY REDUCTION (SVD)
-# FIFA23 – DATA PREPROCESSING & DIMENSIONALITY REDUCTION (SVD)
+# FIFA23 – DIMENSIONALITY REDUCTION (SVD)
 
 ## 1. GIỚI THIỆU
 
@@ -246,3 +245,5 @@ Sau toàn bộ pipeline:
 | V4 | Loại dữ liệu sai |
 | V5 | Chuẩn hoá kiểu dữ liệu |
 | SVD | Giảm chiều dữ liệu |
+
+Tuyết Mai làm phần trên
