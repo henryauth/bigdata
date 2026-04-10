@@ -49,10 +49,6 @@ Dữ liệu sử dụng:
 **Mục tiêu:**
 - Đọc dữ liệu từ file CSV vào Spark DataFrame  
 
-**Kết quả:**
-- Players: ~56,880 dòng  
-- Teams: ~1,112 dòng  
-
 👉 Đây là dữ liệu gốc, chưa xử lý  
 
 ---
