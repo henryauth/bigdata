@@ -169,7 +169,6 @@ Dataset có:
 - Model học chậm  
 - Dễ overfitting  
 
----
 
 💡 Giải pháp: SVD (Singular Value Decomposition)
 
@@ -178,7 +177,6 @@ SVD giúp:
 - Giảm số chiều dữ liệu  
 - Giữ lại thông tin quan trọng nhất  
 
----
 
 📌 Nguyên lý:
 
@@ -190,7 +188,6 @@ Trong đó:
 - Σ: giá trị đặc trưng (singular values)  
 - Vᵀ: ma trận đặc trưng  
 
----
 
 🎯 Mục tiêu sử dụng SVD:
 
@@ -198,14 +195,12 @@ Trong đó:
 - Loại bỏ noise  
 - Tăng tốc độ xử lý  
 
----
 
 🚀 Sau khi áp dụng SVD:
 
 - Trước: ~100+ features  
 - Sau: chỉ còn k features (ví dụ: 10–20)  
 
----
 
 ✅ Lợi ích đạt được:
 
@@ -231,7 +226,7 @@ Sau toàn bộ pipeline:
 
 - Sạch  
 - Nhẹ  
-- Chuẩn ML-ready  
+- Chuẩn ML 
 
 ---
 
