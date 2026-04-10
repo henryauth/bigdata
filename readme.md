@@ -30,4 +30,9 @@ vừa làm lại 2 data set khác nhau có thấy cái nào ok hơn thì lấy v
 # Tụi bay có biết là bài toán này làm cái gì không??
 # nó giải quyết cái gì ??
 
-## làm lại bộ dataset t vừa up 
+## làm lại bộ dataset này
+
+<img width="792" height="376" alt="image" src="https://github.com/user-attachments/assets/bcf77988-a9c5-447e-ab3d-0cb852f41bcc" />
+
+
+link: https://drive.google.com/drive/folders/19iItcYvOi_FAlIkqtWSHcNQBTpReXcJU?usp=sharing
