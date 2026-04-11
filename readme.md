@@ -5,3 +5,6 @@
 
 
 link: https://drive.google.com/drive/folders/19iItcYvOi_FAlIkqtWSHcNQBTpReXcJU?usp=sharing
+
+
+file readme t để đó chứ sao cứ xoá ???
