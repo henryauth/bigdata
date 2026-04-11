@@ -1,4 +1,4 @@
-# xem thử xem có thiếu hay sai gì không
+#
 ## làm lại bộ dataset này
 
 <img width="792" height="376" alt="image" src="https://github.com/user-attachments/assets/bcf77988-a9c5-447e-ab3d-0cb852f41bcc" />
