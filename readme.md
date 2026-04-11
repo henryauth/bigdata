@@ -1,4 +1,4 @@
-#
+# FIFA23_H_V2 đã sửa lại áp dụng kiến trúc đồng bạc vàng chuẩn hoá và lạp sạch dữ liệu không dài dòng lan man
 ## làm lại bộ dataset này
 
 <img width="792" height="376" alt="image" src="https://github.com/user-attachments/assets/bcf77988-a9c5-447e-ab3d-0cb852f41bcc" />
