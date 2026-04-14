@@ -2,21 +2,18 @@
 ## 1. GIỚI THIỆU DỰ ÁN
 
 Trong lĩnh vực Big Data, dữ liệu thực tế thường có các đặc điểm:
-
 Kích thước rất lớn (GB đến hàng chục GB)
 Nhiều thuộc tính (high-dimensional data)
 Dữ liệu nhiễu, thiếu và không đồng nhất
 Có nhiều biến tương quan cao
 
 👉 Với dataset FIFA 23 (players + teams), bài toán gặp vấn đề:
-
 Hơn 100+ features cho mỗi bảng
 Dữ liệu bị phân tán và dư thừa thông tin
 Khó trực quan hóa và khó đưa vào mô hình Machine Learning
 
 🎯 Mục tiêu dự án
 Dự án này xây dựng một pipeline xử lý dữ liệu hoàn chỉnh nhằm:
-
 Làm sạch dữ liệu (Data Cleaning)
 Chuẩn hoá dữ liệu (Data Standardization)
 Kiểm tra và loại bỏ dữ liệu lỗi (Data Validation)
@@ -31,7 +28,6 @@ Dữ liệu gọn hơn – sạch hơn – phù hợp cho Machine Learning
 ## 2. DATASET SỬ DỤNG
 
 Dự án sử dụng 2 bộ dữ liệu chính:
-
 male_players.csv: Thông tin chi tiết cầu thủ FIFA 23
 male_teams.csv: Thông tin đội bóng
 
@@ -65,7 +61,6 @@ Categorical columns: thay bằng "Unknown"
 Date columns: chuẩn hoá format datetime
 
 👉 Kết quả:
-
 Không còn giá trị NULL quan trọng
 Dữ liệu ổn định hơn để xử lý tiếp
 
@@ -77,7 +72,6 @@ player_id (players)
 team_id (teams)
 
 👉 Kết quả:
-
 Loại bỏ dữ liệu dư thừa
 Đảm bảo mỗi thực thể chỉ xuất hiện 1 lần
 
@@ -96,7 +90,6 @@ ngày tháng sai format
 numeric bị parse lỗi
 
 👉 Kết quả:
-
 Players: ~5.6M → sau lọc còn dữ liệu hợp lệ
 Teams: dữ liệu sạch và thống nhất
 
@@ -106,14 +99,12 @@ Teams: dữ liệu sạch và thống nhất
 String → Numeric (overall, pace, shooting,...)
 String → Date (dob, fifa_update_date,...)
 Giữ lại đúng schema Spark chuẩn:
-
 ✔ Integer
 ✔ Double
 ✔ Date
 ✔ String
 
 👉 Kết quả:
-
 Dataset đồng nhất kiểu dữ liệu
 Sẵn sàng cho feature engineering
 
@@ -121,7 +112,6 @@ Sẵn sàng cho feature engineering
 
 ## 4. GOLD LAYER – DATA READY FOR ML
 Sau khi xử lý:
-
 Dataset đạt trạng thái:
 ✔ Không null
 ✔ Không duplicate
@@ -136,20 +126,17 @@ Dataset đạt trạng thái:
 **Vấn đề ban đầu**
 
 Dataset FIFA 23 có:
-
 Hơn 100+ features
 Nhiều thuộc tính có tương quan mạnh
 Dữ liệu bị nhiễu (noise)
 Khó training Machine Learning model
 
 **Hậu quả:**
-
 Tốn tài nguyên tính toán
 Dễ overfitting
 Model chạy chậm
 
 **Giải pháp: SVD (Singular Value Decomposition)**
-
 SVD là kỹ thuật giảm chiều dữ liệu bằng cách phân rã ma trận:
 
 X = U Σ Vᵀ
