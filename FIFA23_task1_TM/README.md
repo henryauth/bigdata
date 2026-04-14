@@ -175,6 +175,9 @@ svd_features = [f1, f2]
 Dự án đã xây dựng thành công pipeline Big Data gồm:
 
 Bronze: dữ liệu gốc
+
 Silver: làm sạch + chuẩn hoá
+
 Gold: dữ liệu sẵn sàng ML
+
 Model: SVD giảm chiều dữ liệu
