@@ -1,4 +1,4 @@
-# trong word mới để nội dung thôi xem thử có sửa gì không sửa 1 thể rồi căn lề làm mục lục các thử luôn
+#   cái file word, ppt t up từ t4 để m xem nội dung ok chưa ok r thì t dán ảnh vào từng phần luôn chứ có phải là t ko dán ảnh đâu t vừa làm vừa hỏi ý m xem m muốn làm theo kiểu nào r t làm theo luôn có bao giờ t làm word mà t tự nhận tự gõ tay đâu word t làm ai nhưng t có đọc qua file ppt của t nó không được chi tiết như m thì bảo t làm chi tiết hơn còn dán ảnh thôi thì giờ t dán được luôn check file v2
 ## làm lại bộ dataset này
 ## đitme m dỡn với t à cả file word đều là ai làm chả có 1 cái hình nào là đúng hình với sơ đồ m cho cả ai làm. Đitme đánh m rớt được chưa. đến việc vào code lấy hình cũng đ biết làm thì m hiểu được cđg trong file code này?? 
 ## m nghỉ t không biết là cả file word đều là ai làm hay sao 
