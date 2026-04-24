@@ -1,6 +1,5 @@
 
-
-## cái gì cũng chỉ cần m nói thôi là t sẽ làm theo ý m hết mà m chẳng nói j up cái word lên là trách t rồi trong khi t đã ghi là để m check nội dung trước giờ m vô m xem m muốn có mục lục có bìa luôn thì m nói t thêm luôn còn format t có mà t headings từng cái mà giờ m có yêu cầu j về word nói đi t làm theo ý m hết
+## cái gì cũng chỉ cần m nói thôi là t sẽ làm theo ý m hết mà m chẳng nói j up cái word lên là trách t rồi trong khi t đã ghi là để m check nội dung trước giờ m vô m xem m muốn có mục lục có bìa luôn thì m nói t thêm luôn còn format t có mà m mở phần heading lên m check t headings từng cái mà giờ m có yêu cầu j về word nói đi t làm theo ý m hết
 ## v3 đã có mục lục có bìa
 ## file word còn đ có trang bìa không mục lục không hết tất cả thì check làm cđgi, đến format từng mục còn sai thì sao check, cuộn chay để xem từng nội dung hay gì t đ có thời gian rảnh để ngồi cuộn hết 3 mấy 40 trang  
 
