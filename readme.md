@@ -1,4 +1,4 @@
-#   cái file word, ppt t up từ t4 để m xem nội dung ok chưa ok r thì t dán ảnh vào từng phần luôn chứ có phải là t ko dán ảnh đâu t vừa làm vừa hỏi ý m xem m muốn làm theo kiểu nào r t làm theo luôn có bao giờ t làm word mà t tự nhận tự gõ tay đâu word t làm ai nhưng t có đọc qua file ppt của t nó không được chi tiết như m thì bảo t làm chi tiết hơn còn dán ảnh thôi thì giờ t dán được luôn check file v2
+
 
 ## cái gì cũng chỉ cần m nói thôi là t sẽ làm theo ý m hết mà m chẳng nói j up cái word lên là trách t rồi trong khi t đã ghi là để m check nội dung trước giờ m vô m xem m muốn có mục lục có bìa luôn thì m nói t thêm luôn còn format t có mà t headings từng cái mà 
 ## v3 có mục lục có bìa
