@@ -2,6 +2,7 @@
 ## làm lại bộ dataset này
 ## đitme m dỡn với t à cả file word đều là ai làm chả có 1 cái hình nào là đúng hình với sơ đồ m cho cả ai làm. Đitme đánh m rớt được chưa. đến việc vào code lấy hình cũng đ biết làm thì m hiểu được cđg trong file code này?? 
 ## m nghỉ t không biết là cả file word đều là ai làm hay sao 
+## file ppt m xem với ppt tụi t làm có khác gì rác không 
 <img width="792" height="376" alt="image" src="https://github.com/user-attachments/assets/bcf77988-a9c5-447e-ab3d-0cb852f41bcc" />
 
 
